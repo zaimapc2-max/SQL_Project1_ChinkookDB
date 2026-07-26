@@ -48,6 +48,8 @@ Key tables used:
 - **pandas** — for running SQL queries and displaying results as DataFrames
 - **sqlite3** — for connecting to the Chinook SQLite database
 - **Jupyter Notebook** — for combining queries, results, and explanations in one readable document
+- **seaborn** — for building the revenue visualization
+- **matplotlib** — for chart styling and export
 
 ## How to Run
 
