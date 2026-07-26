@@ -31,7 +31,7 @@ Key tables used:
 9. Which customers made only one purchase (never repeated)?
 10. What's the most popular media type by number of tracks sold?
 
-## 🔑 Key Findings
+## Key Findings
 
 - **Rock** is by far the top-earning genre, generating **$826.65** — more than double the next closest genre (Latin, $382.14).
 - **Helena Holý** is the top spender at **$49.62**, closely followed by three other customers in the $45–48 range — spending is fairly concentrated at the top rather than dominated by one outlier.
@@ -42,21 +42,21 @@ Key tables used:
 - No customers made only a single purchase — every customer in the dataset has repeat orders, reflecting Chinook's relatively small, active customer base (59 customers, 412 invoices).
 - **MPEG audio files** dominate sales by a huge margin (1,976 tracks sold) compared to all other media types combined.
 
-## 🛠️ Tools Used
+## Tools Used
 
 - **Python**
 - **pandas** — for running SQL queries and displaying results as DataFrames
 - **sqlite3** — for connecting to the Chinook SQLite database
 - **Jupyter Notebook** — for combining queries, results, and explanations in one readable document
 
-## ▶️ How to Run
+## How to Run
 
 1. Clone this repository
 2. Ensure you have `pandas` installed (`pip install pandas`)
 3. Make sure `Chinook_Sqlite.sqlite` is in the same folder as the notebook (download it from the [Chinook database repo](https://github.com/lerocha/chinook-database) if not included)
 4. Open `p1_notebook.ipynb` in Jupyter and run all cells
 
-## 📁 Files
+## Files
 
 - `p1_notebook.ipynb` — the full analysis: 10 business questions, each with its SQL query, result, and a plain-English explanation
 - `Chinook_Sqlite.sqlite` — the SQLite database used for analysis
